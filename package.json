@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-emj-num",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Number for emoji.",
   "homepage": "https://github.com/afeiship/next-emj-num",
   "author": {
@@ -36,5 +36,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "emoji",
+    "numer",
+    "num",
+    "n"
+  ]
 }

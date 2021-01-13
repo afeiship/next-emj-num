@@ -2,8 +2,8 @@
  * name: @jswork/next-emj-num
  * description: Number for emoji.
  * homepage: https://github.com/afeiship/next-emj-num
- * version: 1.0.0
- * date: 2021-01-13 21:45:37
+ * version: 1.0.1
+ * date: 2021-01-13 21:52:17
  * license: MIT
  */
 
