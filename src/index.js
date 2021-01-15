@@ -6,11 +6,10 @@
   nx.emjNum = function (inNumber) {
     var num = parseInt(inNumber);
     var list = num > 10 ? String(num).split('') : [num];
-    return list
-      .map(function (item) {
-        return nums[item];
-      })
-      .join('');
+    var pick = function (item) {
+      return nums[item];
+    };
+    return list.map(pick).join('');
   };
 
   if (typeof module !== 'undefined' && module.exports) {

@@ -2,7 +2,7 @@
   require('../src');
 
   describe('api.basic test', () => {
-    test('nx.emjNum', function () {
+    test('nx.emjNum should return number with emojis', function () {
       expect(nx.emjNum('0')).toBe('0️⃣');
       expect(nx.emjNum('10')).toBe('🔟');
       expect(nx.emjNum('11')).toBe('1️⃣1️⃣');

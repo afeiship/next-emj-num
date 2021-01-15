@@ -3,7 +3,7 @@
  * description: Number for emoji.
  * homepage: https://github.com/afeiship/next-emj-num
  * version: 1.0.1
- * date: 2021-01-13 21:52:17
+ * date: 2021-01-15 22:38:42
  * license: MIT
  */
 
@@ -15,11 +15,10 @@
   nx.emjNum = function (inNumber) {
     var num = parseInt(inNumber);
     var list = num > 10 ? String(num).split('') : [num];
-    return list
-      .map(function (item) {
-        return nums[item];
-      })
-      .join('');
+    var pick = function (item) {
+      return nums[item];
+    };
+    return list.map(pick).join('');
   };
 
   if (typeof module !== 'undefined' && module.exports) {
